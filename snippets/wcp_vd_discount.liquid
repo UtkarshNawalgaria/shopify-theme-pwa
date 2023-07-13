@@ -71,6 +71,7 @@
                 {% for collection in CartItem.product.collections %}
                   {% if discountGroupData contains collection.id %}
                     {% assign wcp_vd_Current_Prd_quantity = wcp_vd_Current_Prd_quantity | plus:CartItem.quantity%}
+					{% break %}
                   {% endif %}
                 {% endfor %}             
              {% elsif discountGroupData contains 'product' and discountGroupData contains CartItem.product.id %}
