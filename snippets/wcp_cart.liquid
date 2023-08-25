@@ -716,9 +716,10 @@ var fnCalled = false;
 
     $('body').on('click', '#wcp-30-open', function(){
       $('#wcp-wcpModal-container').wcpModal();
-     var wcpNoteValue = '';
+      $('#wcp-wcpModal-container').css('display','inline-block');
+      var wcpNoteValue = '';
       if($("[name='note']").length){
-     	wcpNoteValue= $("[name='note']")[0].value;
+     	  wcpNoteValue= $("[name='note']")[0].value;
       }
       $("textarea.net-notes").val(wcpNoteValue);
       return false;

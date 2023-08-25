@@ -56,9 +56,14 @@
             {% endif %}
           {% endfor %}          
         {% endif %}        
-      {% unless wcp_vd_metafield_data contains wcp_vd_product.selected_or_first_available_variant.id %}   
-        {% assign wcp_apply_vd = "true" %}
-       {%- capture wcp_vd_empty_table -%}<tr><td>-</td><td>-</td><td>-</td></tr>{% endcapture %}       
+      {% unless wcp_vd_metafield_data contains wcp_vd_product.selected_or_first_available_variant.id %}
+		 {% for variant in wcp_vd_product.variants %}        
+			{% if wcp_vd_metafield_data contains variant.id %}
+				{% assign wcp_apply_vd = "true" %}
+				{%- capture wcp_vd_empty_table -%}<tr><td>-</td><td>-</td><td>-</td></tr>{% endcapture %}
+				{% break %}
+			{% endif %}
+		 {% endfor %}                      
       {% endunless %}
     {% endcase %}      
 	{% if wcp_apply_vd == "true" %}               
