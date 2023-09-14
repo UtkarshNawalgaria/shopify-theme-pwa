@@ -257,13 +257,16 @@ reqJquery(function($){
           method: "GET",
           credentials: "same-origin",
       }).then((response) => {
-          if(response.status != 200 && tryCount < 5){
+          if(response.status != 200 && tryCount < 10){
               setTimeout(function(){tryCount++; checkInvoiceAvailability(url,tryCount)},1000);
           }else{
               draftAPIRequestProcessing = false;
               window.location.href = url;
           }        
-      });    
+      }).catch((error) => {
+        // to handle CORS error
+        setTimeout(function(){draftAPIRequestProcessing = false; window.location.href = url},5000);
+      });   
   }
 
   function sameDomainAjax (paramHash, successCallback) {
