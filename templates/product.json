@@ -84,6 +84,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "d071d089-4e05-48ef-a755-6fad69eee0a7": {
+          "type": "shopify:\/\/apps\/multi-purpose-app\/blocks\/back-in-stock-form\/3ef8839d-bc07-467e-8c92-c5e128da5c2e",
+          "settings": {
+            "show_phone": false,
+            "success_message": "We will get back to you when the product is available"
+          }
         }
       },
       "block_order": [
@@ -98,7 +105,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "d071d089-4e05-48ef-a755-6fad69eee0a7"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -128,7 +136,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Unexpected shapes with smart details, functionality, a new luxury feel with a contemporary price point.</p>",
+            "text": "<p>Unexpected shapes with smart details, functionality, a new luxury feel with a contemporary price point.<\/p>",
             "text_style": "body"
           }
         }
@@ -138,7 +146,6 @@
         "image-with-text-1"
       ],
       "settings": {
-        "image": "shopify://shop_images/imgwithtext_1070x_1070x_c8e95f55-3876-441b-a37d-e3a92b8f4884.webp",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -159,7 +166,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>We offer free worldwide express shipping on all orders. You'll receive your order an estimated 1–4 days after shipment.</p>",
+            "text": "<p>We offer free worldwide express shipping on all orders. You'll receive your order an estimated 1–4 days after shipment.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -168,7 +175,7 @@
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Exchanges are free. Try from the comfort of your home. We will collect from your home, work or an alternative address.</p>",
+            "text": "<p>Exchanges are free. Try from the comfort of your home. We will collect from your home, work or an alternative address.<\/p>",
             "link_label": "",
             "link": ""
           }
