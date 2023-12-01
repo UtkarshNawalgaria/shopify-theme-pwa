@@ -84,6 +84,16 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "5526df84-52a7-4e87-a4f4-5dc726c3f256": {
+          "type": "shopify:\/\/apps\/multi-purpose-app\/blocks\/back-in-stock-form\/3ef8839d-bc07-467e-8c92-c5e128da5c2e",
+          "settings": {
+            "display_type": "inline",
+            "show_phone": false,
+            "button_color": "",
+            "button_text_color": "",
+            "success_message": "We will get back to you when the product is available"
+          }
         }
       },
       "block_order": [
@@ -98,7 +108,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "5526df84-52a7-4e87-a4f4-5dc726c3f256"
       ],
       "settings": {
         "enable_sticky_info": true,
