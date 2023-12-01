@@ -89,7 +89,7 @@
           "type": "shopify:\/\/apps\/multi-purpose-app\/blocks\/back-in-stock-form\/3ef8839d-bc07-467e-8c92-c5e128da5c2e",
           "settings": {
             "header": "Email me when back in Stock",
-            "header_align": "center",
+            "header_align": "left",
             "display_type": "inline",
             "show_phone": false,
             "input_border_radius": 3,
