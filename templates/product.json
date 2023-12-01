@@ -90,7 +90,7 @@
           "settings": {
             "display_type": "inline",
             "show_phone": false,
-            "input_border_radius": 5,
+            "input_border_radius": 4,
             "button_color": "",
             "button_text_color": "",
             "button_border_radius": 1,
