@@ -90,8 +90,10 @@
           "settings": {
             "display_type": "inline",
             "show_phone": false,
+            "input_border_radius": 5,
             "button_color": "",
             "button_text_color": "",
+            "button_border_radius": 1,
             "success_message": "We will get back to you when the product is available"
           }
         }
