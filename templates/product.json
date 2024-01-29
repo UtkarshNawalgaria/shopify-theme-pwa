@@ -88,12 +88,13 @@
         "5526df84-52a7-4e87-a4f4-5dc726c3f256": {
           "type": "shopify:\/\/apps\/multi-purpose-app\/blocks\/back-in-stock-form\/3ef8839d-bc07-467e-8c92-c5e128da5c2e",
           "settings": {
+            "display_type": "inline",
             "header": "Email me when available",
             "header_font_size": 20,
             "header_font_weight": "600",
             "header_color": "#d62f2f",
             "header_align": "center",
-            "display_type": "inline",
+            "button_full_width": true,
             "button_color": "",
             "button_text_color": "",
             "button_border_radius": 3,
