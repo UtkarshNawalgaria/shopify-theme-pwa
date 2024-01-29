@@ -91,7 +91,7 @@
             "header": "Email me when available",
             "header_font_size": 20,
             "header_font_weight": "600",
-            "header_color": "",
+            "header_color": "#d62f2f",
             "header_align": "center",
             "display_type": "inline",
             "button_color": "",
