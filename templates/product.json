@@ -30,7 +30,7 @@
             "header_font_size": 20,
             "header_font_weight": "600",
             "header_color": "#d62f2f",
-            "header_align": "center",
+            "header_align": "left",
             "button_full_width": true,
             "button_color": "",
             "button_text_color": "",
