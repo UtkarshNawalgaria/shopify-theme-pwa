@@ -73,7 +73,20 @@
       </div>
     </div>
   </div>
+  <div>
+    <button id="shopify-app">Click Here</button>
+  </div>
 </div>
+
+{% javascript %}
+  const button = document.querySelector("#shopify-app");
+  button.addEventListener("click", function(event) {
+    event.preventDefault();
+
+    console.log("Button Clicked");
+  })
+  
+{% endjavascript %}
 
 {% schema %}
 {
