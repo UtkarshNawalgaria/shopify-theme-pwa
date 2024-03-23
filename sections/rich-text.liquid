@@ -80,9 +80,9 @@
 
 <script>
   wishlistBtn = document.querySelector("#wishlist-btn");
-  console.log(wishlistBtn)
+  
   wishlistBtn.addEventListener("click", function(event) {
-    console.log("Button Clicked");
+    fetch("https://rn-eng-dans-experiment.trycloudflare.com/api/apps/wishlist");
   });
 </script>
 
