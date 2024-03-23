@@ -75,14 +75,14 @@
   </div>
   <div>
     <div id="wishlist-btn" style="background-color: red; padding: 12px 24px; cursor: pointer; border-radius: 5px; width: 200px; border-radius: 5px; text-align: center;">
-      Click Here {% if customer %}{{ customer }}{% endif %}
+      Click Here {% if customer %}{{ customer.id }}{% endif %}
     </div>
   </div>
 </div>
 
 <script>
   wishlistBtn = document.querySelector("#wishlist-btn");
-  console.log({{ customer | json}})
+
   wishlistBtn.addEventListener("click", function(event) {
     fetch("https://rn-eng-dans-experiment.trycloudflare.com/api/apps/wishlist", {
       credentials: 'include'
