@@ -82,7 +82,9 @@
   wishlistBtn = document.querySelector("#wishlist-btn");
   
   wishlistBtn.addEventListener("click", function(event) {
-    fetch("https://rn-eng-dans-experiment.trycloudflare.com/api/apps/wishlist");
+    fetch("https://rn-eng-dans-experiment.trycloudflare.com/api/apps/wishlist", {
+      credentials: 'include'
+    });
   });
 </script>
 
