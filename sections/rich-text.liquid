@@ -74,12 +74,13 @@
     </div>
   </div>
   <div>
-    <button id="wishlist-btn">Click Here</button>
+    <div id="wishlist-btn" style="background-color: red; padding: 12px 24px; cursor: pointer; border-radius: 5px;">Click Here</div>
   </div>
 </div>
 
 <script>
   wishlistBtn = document.querySelector("#wishlist-btn");
+  console.log(wishlistBtn)
   wishlistBtn.addEventListener("click", function(event) {
     console.log("Button Clicked");
   });
