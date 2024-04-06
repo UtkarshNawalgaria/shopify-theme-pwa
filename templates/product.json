@@ -20,24 +20,6 @@
           "settings": {
           }
         },
-        "5526df84-52a7-4e87-a4f4-5dc726c3f256": {
-          "type": "shopify:\/\/apps\/multi-purpose-app\/blocks\/back-in-stock-form\/3ef8839d-bc07-467e-8c92-c5e128da5c2e",
-          "settings": {
-            "display_type": "inline",
-            "show_phone": false,
-            "input_border_radius": 3,
-            "header": "Email me when available",
-            "header_font_size": 20,
-            "header_font_weight": "600",
-            "header_color": "#d62f2f",
-            "header_align": "left",
-            "button_full_width": true,
-            "button_color": "",
-            "button_text_color": "",
-            "button_border_radius": 3,
-            "success_message": "We will get back to you when the product is available"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -102,13 +84,19 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "my_wishlist_wishlist_icon_VxWwEf": {
+          "type": "shopify:\/\/apps\/my-wishlist\/blocks\/wishlist-icon\/c796dffd-259e-4143-9318-ddb6b98608ac",
+          "settings": {
+            "product": "{{product}}",
+            "colour": "#ff0000"
+          }
         }
       },
       "block_order": [
         "title",
         "caption",
         "price",
-        "5526df84-52a7-4e87-a4f4-5dc726c3f256",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -117,7 +105,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "my_wishlist_wishlist_icon_VxWwEf"
       ],
       "settings": {
         "enable_sticky_info": true,
