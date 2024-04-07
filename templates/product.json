@@ -38,6 +38,15 @@
             "show_gift_card_recipient": false
           }
         },
+        "my_wishlist_wishlist_icon_VxWwEf": {
+          "type": "shopify:\/\/apps\/my-wishlist\/blocks\/wishlist-icon\/c796dffd-259e-4143-9318-ddb6b98608ac",
+          "settings": {
+            "show_only_icon": false,
+            "icon_color": "#ff0000",
+            "button_text": "Add to Wishlist",
+            "button_text_color": "#ff0000"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -84,15 +93,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "my_wishlist_wishlist_icon_VxWwEf": {
-          "type": "shopify:\/\/apps\/my-wishlist\/blocks\/wishlist-icon\/c796dffd-259e-4143-9318-ddb6b98608ac",
-          "settings": {
-            "show_only_icon": false,
-            "icon_color": "#ff0000",
-            "button_text": "Add to Wishlist",
-            "button_text_color": "#ff0000"
-          }
         }
       },
       "block_order": [
@@ -102,13 +102,13 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "my_wishlist_wishlist_icon_VxWwEf",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "my_wishlist_wishlist_icon_VxWwEf"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
