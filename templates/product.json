@@ -44,7 +44,7 @@
             "show_only_icon": false,
             "icon_color": "#ff0000",
             "button_text": "Add to Wishlist",
-            "button_text_color": "#000"
+            "button_text_color": "#ff0000"
           }
         },
         "description": {
