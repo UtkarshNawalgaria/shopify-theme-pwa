@@ -14,6 +14,7 @@
         "my_wishlist_wishlist_page_QDRawy": {
           "type": "shopify:\/\/apps\/my-wishlist\/blocks\/wishlist-page\/c796dffd-259e-4143-9318-ddb6b98608ac",
           "settings": {
+            "header_align": "center"
           }
         }
       },
