@@ -199,6 +199,26 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "17134593064edec826": {
+      "type": "apps",
+      "blocks": {
+        "my_wishlist_wishlist_icon_7GAiMz": {
+          "type": "shopify:\/\/apps\/my-wishlist\/blocks\/wishlist-icon\/c796dffd-259e-4143-9318-ddb6b98608ac",
+          "settings": {
+            "show_only_icon": false,
+            "icon_color": "#ff0000",
+            "button_text": "Add to Wishlist",
+            "button_text_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "my_wishlist_wishlist_icon_7GAiMz"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -207,6 +227,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "17134593064edec826"
   ]
 }
