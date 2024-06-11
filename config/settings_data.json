@@ -225,12 +225,6 @@
 
     ],
     "blocks": {
-      "yoast-seo-metatags": {
-        "type": "shopify:\/\/apps\/yoast-seo-seo-for-everyone\/blocks\/metatags\/7c777011-bc88-4743-a24e-64336e1e5b46",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "11532412952436166569": {
         "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-inject\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
         "disabled": false,
@@ -239,6 +233,12 @@
       },
       "back-in-stock-restock-alerts-4bb73be2-b7c2-4870-949f-c528145452a3": {
         "type": "shopify:\/\/apps\/back-in-stock-restock-alerts\/blocks\/main\/4bb73be2-b7c2-4870-949f-c528145452a3",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "yoast-seo-metatags": {
+        "type": "shopify:\/\/apps\/yoast-seo-seo-for-everyone\/blocks\/metatags\/7c777011-bc88-4743-a24e-64336e1e5b46",
         "disabled": false,
         "settings": {
         }
